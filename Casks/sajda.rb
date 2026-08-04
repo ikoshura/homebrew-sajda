@@ -1,6 +1,6 @@
 cask "sajda" do
-  version "3.2.0"
-  sha256 "79f08211503f89a5e0baabd149071058317effd5b53126b623ea0d8088c4aeca"
+  version "3.3.1"
+  sha256 "c76f13324263ebb947afeb78061b797e0809259360318f8ab669769b8120942b"
 
   url "https://github.com/ikoshura/Sajda/releases/download/v#{version}/Sajda-#{version}.dmg"
   name "Sajda"
