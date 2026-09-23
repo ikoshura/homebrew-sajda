@@ -7,7 +7,7 @@ cask "sajda" do
   desc "Minimalist prayer times menu bar app"
   homepage "https://github.com/ikoshura/Sajda"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Sajda.app"
 
