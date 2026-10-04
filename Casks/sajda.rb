@@ -1,6 +1,6 @@
 cask "sajda" do
-  version "4.4.13"
-  sha256 "c5c3b66a3de82b20cb31a959a573f7ee904d2049c7a4e18547dc7eb3840b12f0"
+  version "4.5.1"
+  sha256 "a29706e598a4be366f04e4d509df1e8a5a1f6658a5e5dd02f1f6ef453a7c98a1"
 
   url "https://github.com/ikoshura/Sajda/releases/download/v#{version}/Sajda-#{version}.dmg"
   name "Sajda"
@@ -13,6 +13,7 @@ cask "sajda" do
 
   zap trash: [
     "~/Library/Application Support/Sajda",
+    "~/Library/Preferences/com.ikoshura.Sajda.plist",
     "~/Library/Preferences/com.madda.Sajda.plist",
   ]
 end
